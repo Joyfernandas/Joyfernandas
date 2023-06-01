@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import Navbar from './Component/Navbar';
-import Port from './Component/Port';
+import Sample from './Sample';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Navbar /> */}
-    <Port/>
+    {/* <App /> */}
+    <Sample/>
   </React.StrictMode>
 );
 

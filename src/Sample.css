@@ -1,0 +1,251 @@
+nav {
+  /* height: 100px; */
+}
+body{
+  background:linear-gradient(rgb(178, 227, 180), rgb(134, 178, 202), rgb(216, 153, 153),rgb(26, 23, 23));
+}
+.gm {
+  height: 400px;
+  width: 1600px;
+}
+
+.nav-btn {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+.card:hover {
+  transform: scale(0.9);
+}
+.card {
+  transition: transform 0.7s;
+  /* width: 400px; */
+}
+.img {
+  height: 426px;
+}
+.in {
+  width: 550px;
+  height: 50px;
+  background-color: #eaecf5;
+  border: none;
+  font-size: 25px;
+}
+.inp {
+  width: 550px;
+  height: 150px;
+  background-color: #eaecf5;
+  border: none;
+  font-size: 25px;
+}
+.send-btn {
+  background-color: #eaecf5;
+  font-size: 20px;
+  width: 100px;
+}
+.hvr-bounce-to-left {
+  /* height: 50px;
+  width: 150px; */
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-to-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #02080a;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-bounce-to-left:hover,
+.hvr-bounce-to-left:focus,
+.hvr-bounce-to-left:active {
+  color: white;
+}
+.hvr-bounce-to-left:hover:before,
+.hvr-bounce-to-left:focus:before,
+.hvr-bounce-to-left:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.co {
+  /* background-image: url("https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1622023231820-YOMSBK55SBRZDBSKK5E8/The+Lodge+at+Wah.jpg"); */
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  transform: 2px;
+}
+.bd-highlight img{
+  border:3px solid rgb(207, 227, 203);
+  /* padding: 50px; */
+  /* background-color: green; */
+  transition: transform .2s; /* Animation */
+  /* width: 200px;
+  height: 200px; */
+  margin: 0 auto;
+
+  
+}
+.bd-highlight img:hover{
+  transform: scale(1.5);
+}
+.about {
+  background-color:linear-gradient(rgb(183, 10, 10),rgb(184, 184, 18),);
+  border-radius:5px;
+
+}
+.blt{
+  background-color:rgb(168, 186, 215);
+}
+.navbar {
+  background-color: #c2cbf7;
+}
+.bm{
+  font-family: "Sofia", sans-serif;
+  color:hsl(0, 12%, 97%);
+  font-weight:180px;
+  font-size:26px;
+}
+
+@media screen and (max-width: 600px) {
+  .in {
+    width: 300px;
+    /* margin-left: 100px; */
+  }
+  .inp {
+    width: 300px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .co {
+    margin-top: 60px;
+  }
+  .nav-text {
+    margin-left: 130px;
+  }
+  .wa{
+    margin-left: 50px;
+  }
+  
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 1080px) {
+  .mb {
+    margin-bottom: 200px;
+  }
+  .gm {
+    height: 300px;
+  }
+  .bm {
+    font-size: 90px;
+  }
+  nav {
+    height: 100px;
+  }
+  .te{
+    font-size:30px;
+  } 
+  .j{
+    height: 500px;
+    width: 460px;
+  
+    margin:10px 40px;
+    border-radius:10px;
+  
+  }
+  .lijk{
+    margin-top:20px;
+  }
+}
+.about{
+  height: 530px;
+
+}
+
+
+
+.foot {
+  color: white;
+  width:100%;
+  background-color:#383638;
+}
+/* .car{
+  margin:10px
+} */
+
+@media screen and (max-width: 600px) {
+.dream{
+  align-items: center;
+  color: white;
+}
+.about{
+  height: 700px;
+  margin-left:5px;
+  text-align: justify;
+  
+}
+
+
+.bm{
+  margin-bottom: 20px;
+}
+
+.j{
+  margin-left: 15%;
+  width:259px;
+  border-radius:10px;
+}
+.te{
+  margin:10px;
+  
+
+}
+}
+.p{
+  background-image:url('../public/logo192.png');
+}
+.car{
+  margin-left:2px;
+}
+.foot{
+  
+  width: 100%;
+  margin-left: 20px;
+  /* border-right: 10px solid black; */
+}
+.fter{
+  margin-left: 20px;
+  background-color: #0f010f;
+}
+
+/* review page */
