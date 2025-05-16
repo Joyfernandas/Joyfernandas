@@ -18,6 +18,6 @@
 
 ### 📊 **GitHub Stats**
 [![GitHub Streak](https://streak-stats.demolab.com/?user=Joyfernandas&theme=dark)](https://git.io/streak-stats)  
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Joyfernandas&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)  
+[![Top Languages][![GitHub Streak](https://streak-stats.demolab.com?user=Joyfernandas&theme=highcontrast)](https://git.io/streak-stats)](https://github.com/anuraghazra/github-readme-stats)  
 
 📫 **Let’s Connect:** [LinkedIn](#) | [Twitter](#) | [TryHackMe](#)  
